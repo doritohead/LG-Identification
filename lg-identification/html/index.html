@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Badge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container"> 
+        <div class="sub-container"> 
+            <div class="sub-container-background"></div>
+            <div class="photo-id"></div>
+            <div class="info">
+                <h5 class="sub-container-header">Los Santos Police Department</h5>
+                <div class="fields">
+                    <div class="fields-start">
+                        <div class="field">
+                            <p>Name:</p>
+                        </div>
+                        <div class="field">
+                            <p>Age:</p>
+                        </div>
+                        <div class="field">
+                            <p>Sex:</p>
+                        </div>
+                        <div class="field">
+                            <p>Badge Number:</p>
+                        </div>
+                        <div class="field">
+                            <p>Rank:</p>
+                        </div>
+                    </div>
+                    <div class="fields-end">
+                        <div class="field">
+                            <p>N/A</p>
+                        </div>
+                        <div class="field">
+                            <p>N/A</p>
+                        </div>
+                        <div class="field">
+                            <p>N/A</p>
+                        </div>
+                        <div class="field">
+                            <p>N/A</p>
+                        </div>
+                        <div class="field">
+                            <p>N/A</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-container"> 
+            <div class="sub-container-background"></div>
+            <div class="footer">
+                <div id="footer-display">
+                    <div id="footer-text">
+                    </div>
+                </div>
+                <div class="info-form">
+                    <div>
+                        <label for="image">Picture:</label>
+                        <input type="text" id="image" name="image">
+                    </div>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="age">Age:</label>
+                        <input type="text" id="age" name="age">
+                    </div>
+                    <div>
+                        <label for="sex">Sex:</label>
+                        <input type="text" id="sex" name="sex">
+                    </div>
+                    <div>
+                        <label for="number_id">Badge Number:</label>
+                        <input type="text" id="number_id" name="number_id">
+                    </div>
+                    <div>
+                        <label for="rank">Rank:</label>
+                        <input type="text" id="rank" name="rank">
+                    </div>
+                    <div>
+                        <label for="department">Department:</label>
+                        <select name="department" id="department">
+                            <option value="lspd">L.S.P.D</option>
+                            <option value="bcso">B.C.S.O</option>
+                            <option value="medic">S.A.M.D</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button id="info-form-submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
