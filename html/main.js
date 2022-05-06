@@ -17,8 +17,6 @@ $(document).ready(function() {
         $.post('http://lg-identification/editSubmit', JSON.stringify(CurrentData));
         editing = false;
     });
-    //EditID(CurrentData);
-    DisplayID({}, true);
 });
 
 window.addEventListener("message", function(ev) {
