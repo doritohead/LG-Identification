@@ -10,3 +10,12 @@ function SetIdentification(source, identity)
 end
 
 exports("SetIdentification", SetIdentification)
+
+-- To make it an item
+local QBCore = exports['qb-core']:GetCoreObject()
+
+QBCore.Functions.CreateUseableItem("pdbadge", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("showpdbage", src, item.name)
+end)
