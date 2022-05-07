@@ -12,6 +12,10 @@ RegisterCommand("showid", function()
     ShowID()
 end, false)
 
+RegisterNetEvent("showpdbage", function()
+    ShowID() 
+end)
+
 RegisterCommand("editid", function()
     EditID()
 end, false)
