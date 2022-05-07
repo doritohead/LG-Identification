@@ -13,6 +13,7 @@ RegisterCommand("showid", function()
 end, false)
 
 RegisterCommand("editid", function()
+    EditID()
 end, false)
 
 RegisterCommand("hideid", function()
